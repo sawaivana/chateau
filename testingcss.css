@@ -189,8 +189,8 @@ body {
 .miss-information{
     flex: 1;
     position: relative;
-    font-size: 140px;
-    font-family: var(--font-goozee-outline);
+    font-size: 175px;
+    font-family: var(--font-terminal-grotesque);
     color: black;
     text-align: center;
     display: inline-block;
