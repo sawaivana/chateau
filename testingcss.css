@@ -1,5 +1,5 @@
 
-body {
+/* body {
     margin: 0;
     line-height: normal;
 }
@@ -108,6 +108,7 @@ body {
     font-family: var(--font-goozee-outline);
 }
 */
+/*
 .listenlink {
   margin: 0;
   align-self: stretch;
@@ -141,6 +142,7 @@ body {
   object-fit: cover;
 }
 */ 
+/*
 .contact {
   display: flex;
   flex-direction: column;
@@ -313,13 +315,100 @@ body {
     box-sizing: border-box;
 }
 }
+*/
+
+
+body {
+    margin: 0;
+    line-height: normal;
+    font-family: 'Terminal Grotesque', sans-serif;
+}
+
+.archive, .natural, .artificial, .diary1, .listen {
+    cursor: pointer;
+    font-family: 'Goozee outline', sans-serif;
+    font-size: 1.5rem;
+}
+
+.inputs, .inputs1, .inputs2, .inputs3, .listenlink, .contact {
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+
+.inputs-parent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.miss-information {
+    font-size: 4rem;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.definitions {
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+.miss-information-all {
+    text-align: center;
+    font-size: 1rem;
+    margin: 20px;
+}
+
+.tv-1 {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .miss-information {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 1050px) {
+    .archive, .natural, .artificial, .diary1, .listen {
+        font-size: 1.25rem;
+    }
+    .miss-information {
+        font-size: 3rem;
+    }
+    .miss-information-all {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .inputs-parent {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    .archive, .natural, .artificial, .diary1, .listen {
+        font-size: 1rem;
+    }
+    .miss-information {
+        font-size: 2rem;
+    }
+    .definitions {
+        font-size: 1rem;
+    }
+    .miss-information-all {
+        font-size: 0.8rem;
+    }
+}
 
 :root {
-    /*fonts hopefully*/
-    --font-goozee-outline: "Goozee Outline";
+
+   --font-goozee-outline: "Goozee Outline";
 }
 
 :root {
     --font-terminal-grotesque: "Terminal Grotesque";
 }
-
